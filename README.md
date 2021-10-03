@@ -45,5 +45,5 @@ The log files in the dataset you'll be working with are partitioned by year and 
 
 Two staging tables (staging_events, staging_songs) capture all of the data from S3. It is then transformed and loaded into a fact table (songplays) and four dimension tables (users, songs, artists, time). `create_tables.py` connects to the Redshift cluster, drops any existing tables, and creates the seven tables, and SQL queries are defined in `sql_queries.py`. 
 
-![staging_tables](staging_tables.png)
-![analytics_tables](analytics_tables.png)
+![staging_tables](images/staging_tables.png)
+![analytics_tables](images/analytics_tables.png)
